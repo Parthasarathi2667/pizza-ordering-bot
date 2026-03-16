@@ -1,0 +1,237 @@
+{
+  "id": "55ac1e3c-ab58-4a67-8025-1386c1b1e61d",
+  "name": "orderingbot",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "orderingbot-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5a497433-c4b9-4de4-86f9-4041fad56f46",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "enter your mail ID"
+            },
+            {
+              "lang": "en",
+              "value": "may i know your email ID"
+            },
+            {
+              "lang": "en",
+              "value": "give the email to get updates of the order"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "be24c921-ec19-46e6-94b5-70053aeee255",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "enter your valid 10-digit phone number"
+            },
+            {
+              "lang": "en",
+              "value": "give the phone number which is linked to your email"
+            },
+            {
+              "lang": "en",
+              "value": "may i know your contact number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "23e2a6f4-f010-4196-8b80-9f0abf5033f1",
+          "name": "size",
+          "required": true,
+          "dataType": "@size",
+          "value": "$size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "enter the size for your pizza"
+            },
+            {
+              "lang": "en",
+              "value": "what should be the size of your pizza"
+            },
+            {
+              "lang": "en",
+              "value": "regular, medium, large, small."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d1818118-8c26-4d33-b4f9-f793fca4ae4b",
+          "name": "pizza_type",
+          "required": true,
+          "dataType": "@pizza_type",
+          "value": "$pizza_type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what type of pizza do you want?"
+            },
+            {
+              "lang": "en",
+              "value": "what kind of pizza you are ordering"
+            },
+            {
+              "lang": "en",
+              "value": "capsicum, onion ,panner ,corn"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1d7a884a-cc12-437e-8ec1-b777cd105f17",
+          "name": "toppings",
+          "required": true,
+          "dataType": "@toppings",
+          "value": "$toppings",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "we have the toping like cheese , panner, veggies, chicken which one do you want"
+            },
+            {
+              "lang": "en",
+              "value": "do you want to add topings"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ee2811fd-e417-45a2-983f-518fecffac23",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "how many number of pizza do you want?"
+            },
+            {
+              "lang": "en",
+              "value": "enter the number of pizza that you want to order"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "18de0de0-fc76-4669-8f6e-bb14be6cd53e",
+          "name": "date-time",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "when do you want to book  the pizza"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "23c22e60-4f26-42bc-a494-3c2f70e1c8a6",
+          "name": "address",
+          "required": true,
+          "dataType": "@sys.address",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "enter your home/office adress"
+            },
+            {
+              "lang": "en",
+              "value": "which address should we deliver your pizza"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "$number $size size $pizza_type pizza with $toppings is booked $date-time to $email and $phone-number to $address do you want coke with pizza?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

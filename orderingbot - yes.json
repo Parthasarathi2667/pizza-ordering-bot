@@ -1,0 +1,39 @@
+{
+  "id": "5d261acf-7ca4-4909-b73f-a7c44b4cd5fd",
+  "parentId": "55ac1e3c-ab58-4a67-8025-1386c1b1e61d",
+  "rootParentId": "55ac1e3c-ab58-4a67-8025-1386c1b1e61d",
+  "name": "orderingbot - yes",
+  "auto": true,
+  "contexts": [
+    "orderingbot-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderingbot.orderingbot-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "thank you for ordering pizza with coke"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

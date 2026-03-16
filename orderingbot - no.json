@@ -1,0 +1,39 @@
+{
+  "id": "77d12de1-c1bb-48ca-9617-fcba86325e1a",
+  "parentId": "55ac1e3c-ab58-4a67-8025-1386c1b1e61d",
+  "rootParentId": "55ac1e3c-ab58-4a67-8025-1386c1b1e61d",
+  "name": "orderingbot - no",
+  "auto": true,
+  "contexts": [
+    "orderingbot-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderingbot.orderingbot-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "thank you for ordering pizza"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

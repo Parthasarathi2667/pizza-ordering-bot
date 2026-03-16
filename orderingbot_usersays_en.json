@@ -1,0 +1,174 @@
+[
+  {
+    "id": "f326c472-093f-4cd3-9c17-d4af7d4b8c1a",
+    "data": [
+      {
+        "text": "book pizza ",
+        "userDefined": false
+      },
+      {
+        "text": "here",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "37a96435-1f96-432c-a075-b3c0cd071234",
+    "data": [
+      {
+        "text": "order me pizza ",
+        "userDefined": false
+      },
+      {
+        "text": "now",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c9b0f1b1-594e-4e29-91c9-1a5654e0457a",
+    "data": [
+      {
+        "text": "how many ",
+        "userDefined": false
+      },
+      {
+        "text": "number",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " of pizza do you want to order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06236246-1bf9-4df2-a4fe-3e11ad111b3a",
+    "data": [
+      {
+        "text": "do you want to add the ",
+        "userDefined": false
+      },
+      {
+        "text": "topings",
+        "meta": "@toppings",
+        "alias": "toppings",
+        "userDefined": true
+      },
+      {
+        "text": " to your pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d3384b59-b229-4b12-8182-503549238b1d",
+    "data": [
+      {
+        "text": "enter the ",
+        "userDefined": false
+      },
+      {
+        "text": "type",
+        "meta": "@pizza_type",
+        "alias": "pizza_type",
+        "userDefined": true
+      },
+      {
+        "text": " of the pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9d69cd12-1599-4067-9188-366df7ae136d",
+    "data": [
+      {
+        "text": "could you order me ",
+        "userDefined": false
+      },
+      {
+        "text": "small",
+        "meta": "@size",
+        "alias": "size",
+        "userDefined": true
+      },
+      {
+        "text": " size pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af1e7a36-fcd8-48b3-930d-b90acff3e281",
+    "data": [
+      {
+        "text": " order the pizza to the ",
+        "userDefined": false
+      },
+      {
+        "text": "mail",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      },
+      {
+        "text": " ID and ",
+        "userDefined": false
+      },
+      {
+        "text": "phone number",
+        "meta": "@sys.phone-number",
+        "alias": "phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0039df04-ca9e-4f88-b462-66342fb84a71",
+    "data": [
+      {
+        "text": "order me pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
